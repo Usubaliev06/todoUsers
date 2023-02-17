@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(187, 184, 184);
+  display: flex;
+}
+
+.usersBox {
+  height: fit-content;
+  padding: 63px;
+}
+
+.users {
+  height: fit-content;
+  background-color: rgb(84, 84, 201);
+  width: 290px;
+  margin-top: 30px;
+  padding: 11px;
+  display: block;
+  border: 0px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+
+.users:active {
+  background-color: rgb(53, 139, 99);
+}
+
+.users:nth-child(1) {
+  margin-top: 0;
+}
+
+.userTodosWrapper {
+  width: 60%;
+  height: 70vh;
+  margin-top: 60px;
+  display: none;
+}
+
+.todoData {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.tasks {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+}
+
+.userTodosWrapper>h1 {
+  margin-bottom: 30px;
+  color: #FFFFFF;
+}
+
+.errInApi {
+  margin: 15% auto 0 auto;
+  font-size: 60px;
+  color: red;
+  width: 700px;
+  text-align: center;
+}
+
+.loaderApp {
+  margin: 20% auto 0 auto;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.todoError{
+  font-size: 60px;
+  color: red;
+}
